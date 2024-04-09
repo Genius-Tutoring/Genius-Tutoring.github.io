@@ -631,16 +631,17 @@ a:focus {
   width: 100%;
   height: 450px;
 }
-/* Center the button's parent container */
-.contact_section form .d-flex {
-  justify-content: center; /* Centers the content for flexbox container */
-  display: flex; /* Applies flexbox */
+/* Adjust the row containing the form */
+.contact_section .row {
+  display: flex;
+  justify-content: center; /* Centers the column(s) horizontally in the row */
 }
 
-/* Optional: Ensure the button itself doesn't have offsetting styles */
-.contact_section button {
-  margin: 0 auto; /* Centers the button */
-  display: block; /* Block display allows the button to respect margin auto */
+/* Center the column class. Adjust as needed if you have a specific class */
+.contact_section .col-md-6 {
+  float: none; /* Overrides default floating behavior */
+  display: inline-block; /* Allows the column to be centered */
+  max-width: 100%; /* Ensures the column doesn't exceed its container's width */
 }
 
 .info_section {
