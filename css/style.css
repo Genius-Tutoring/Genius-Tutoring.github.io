@@ -424,8 +424,9 @@ a:focus {
 }
 
 .about_section .detail-box {
-  padding: 45px 0;
+  padding: 40px 0;
   margin-left: 8%;
+  width: 120%;
 }
 
 .about_section .detail-box p {
