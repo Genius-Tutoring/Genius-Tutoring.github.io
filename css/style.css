@@ -111,6 +111,16 @@ body {
   background-color: #000; /* Optional: if you want a background color */
 }
 
+.client_container .testimonial-detail {
+  max-width: 80%; /* Adjusts the width to a suitable size, centered */
+  margin: auto; /* Centers the detail-box horizontally within client_container */
+  text-align: center; /* Ensures text is centered */
+}
+
+.client_container .testimonial-detail img {
+  display: block; /* Ensures the quote image is a block element */
+  margin: 10px auto 0; /* Centers the quote image and adds space above it */
+}
 /* New Stuff */
 /* New Stuff */
 
